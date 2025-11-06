@@ -1,71 +1,101 @@
-# Getting Started with Create React App
+# Mini-Proyecto2-React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicación React del Servicio Nacional de Aprendizaje (SENA) con información sobre programas de formación.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- Diseño moderno y responsivo
+- Navegación intuitiva
+- Formulario de contacto
+- Secciones informativas sobre programas
 
-### `npm start`
+## 🛠️ Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 19.2.0
+- CSS3 con diseño moderno
+- Create React App
+- GitHub Pages para despliegue
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Instalación
 
-### `npm test`
+1. Clona el repositorio:
+```bash
+git clone https://github.com/Wuelcom/Mini-Projecto2-React.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Ejecuta en modo desarrollo:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Despliegue en GitHub Pages
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Pasos para desplegar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Crea un repositorio en GitHub** con el nombre exacto: `Mini-Projecto2-React`
 
-### `npm run eject`
+2. **Configura tu usuario de Git** (si no lo has hecho):
+```bash
+git config user.name "Tu Nombre Completo"
+git config user.email "tu-email@github.com"
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Agrega el repositorio remoto**:
+```bash
+git remote add origin https://github.com/TU_USUARIO/Mini-Projecto2-React.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Sube el código al repositorio**:
+```bash
+git add .
+git commit -m "Primera versión del proyecto"
+git push -u origin main
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Ejecuta el despliegue**:
+```bash
+npm run deploy
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📋 Notas Importantes:
 
-## Learn More
+- El proyecto está configurado para desplegar automáticamente en: `https://wuelcom.github.io/Mini-Projecto2-React/`
+- Si tu nombre de usuario es diferente, actualiza la URL en `package.json` y `set-public-url.js`
+- El comando `npm run deploy` ejecuta automáticamente:
+  - `npm run build` (construye la aplicación)
+  - `gh-pages -d build` (sube la carpeta build a la rama gh-pages)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔧 Configuración del Repositorio en GitHub:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Después del primer despliegue:
 
-### Code Splitting
+1. Ve a Settings → Pages en tu repositorio de GitHub
+2. En "Source" selecciona "Deploy from a branch"
+3. Selecciona la rama `gh-pages` y carpeta `/ (root)`
+4. Guarda los cambios
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎨 Personalización
 
-### Analyzing the Bundle Size
+Los colores y estilos se pueden modificar en:
+- `src/App.css` - Estilos principales
+- `src/index.css` - Estilos globales
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 Scripts Disponibles
 
-### Making a Progressive Web App
+- `npm start` - Ejecuta en modo desarrollo
+- `npm run build` - Construye para producción
+- `npm run deploy` - Despliega a GitHub Pages
+- `npm test` - Ejecuta las pruebas
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📞 Contacto
 
-### Advanced Configuration
+Para soporte o preguntas, puedes contactar a través del formulario en la aplicación.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Proyecto
+**¡Hecho con ❤️ por el equipo SENA!**
